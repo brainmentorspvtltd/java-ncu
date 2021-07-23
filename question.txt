@@ -1,0 +1,119 @@
+
+
+
+1. Salary Slip Generate
+Company Name : Brain Mentor’s (Proper Case)
+(Hint): String predefine functions 
+Name : Amit Srivastava (Proper Case)
+Basic Salary : 9000
+HRA 50% : 4500
+DA 25%: 
+TA 20%: 
+PF: 10%
+MA: 20%
+Gross Salary : BS + HRA + DA + TA
+Tax: >5L 10% Tax
+>7L 20%
+>9L 30%
+Net Salary = GrossSalary - PF - Tax
+Note: India Rs 2,00,000.00
+$1000,000.00
+Hint : Locale Class , CurrencyFormat Class
+
+
+2. Student Report Card
+RollNo
+Name: Proper Case
+Subject : 3 Subjects Marks
+Total Compute
+Grade Compute
+A >= 90
+B < 90 to 80
+C <80 to 70
+<70 D
+ 
+
+
+Definition of a Good Class
+1. Class name must be noun
+2. Start with Capital Letter
+3. Instance Variables are private (Data Hiding)
+4. Methods are public 
+(3 + 4) = Good Encapsulation
+5. Follow SRP
+6. Constructors are used to initalize the primary values
+7. To Set or get the individual values we need getter and setter
+8. to print override the toString () - to get the meaningful object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Constructor
+1. Constructor name is same as class name
+2. Constructor is called when object is created
+3. Constructor is used to initalize the instance variables
+4. We can create multiple constructor , this is called constructor overloading
+5. Constructor Chaining with in a class, by using this keyword
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Function vs Method
+
+
+Java 
+1. OOPS
+2. Functional Programming - Java 1.8
+
+
+1. Function Define / Call / Parameters / Return - Ans No
+
+Procedural Programming - C
+
+JavaScript 
+Function can have a function as an argument, Function can return a function
+Function Nested
+
+arr.forEach((element)->System.out.println(element))
+
+Array - Sum Each Element , Value > 20
+int arr [] = {10,20,30,40,50,60}
+int sum = 0;
+for(int i =0; i<arr.length; i++){
+if(arr[i]>20){
+sum+=arr[i];
+}
+}
+
