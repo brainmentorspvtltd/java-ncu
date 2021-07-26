@@ -133,7 +133,7 @@ public class Employee{
 		this.location = location;
 	}
 	public double getBonus() {
-		return bonus;
+		return getSalary() * 0.20; // computed field
 	}
 	public void setBonus(double bonus) {
 		this.bonus = bonus;
